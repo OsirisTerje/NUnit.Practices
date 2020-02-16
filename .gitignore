@@ -353,3 +353,9 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/visualstudio
+[Ll]ogs/
+*.meta
+# Coverlet is a free, cross platform Code Coverage Tool
+coverage*[.json, .xml, .info]
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
