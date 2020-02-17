@@ -44,7 +44,7 @@ namespace SomePractices2
         [Test]
         public void ThatAgeMatches()
         {
-            var dNow = NSubstitute.Substitute.For<IDateTime>();
+            var dNow = Substitute.For<IDateTime>();
             dNow.Now.Returns(new DateTime(2010, 1, 1));
             var sut = new Person("George", "Something", new DateTime(1926, 6, 18),dNow);
 
