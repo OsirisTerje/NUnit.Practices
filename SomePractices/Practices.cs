@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace SomePractices1
 {
 
+    // Person class
     public class Person
     {
         public Person(string v1, string v2, DateTime dateTime)
