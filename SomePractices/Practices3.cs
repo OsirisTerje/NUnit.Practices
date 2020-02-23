@@ -4,10 +4,6 @@ using NUnit.Framework;
 
 namespace SomePractices3
 {
-
-
-
-
     public interface IDateTime
     {
         DateTime Now { get; }
